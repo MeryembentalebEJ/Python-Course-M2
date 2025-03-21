@@ -41,7 +41,7 @@ advanced_cli_task_manager/
 
 ### ✅ 1. Cloner le projet
 ```bash
-git clone https://github.com/TON-UTILISATEUR/advanced-cli-task-manager.git
+git https://github.com/MeryembentalebEJ/Python-Course-M2.git
 cd advanced-cli-task-manager
 ```
 
@@ -95,13 +95,5 @@ docker run --rm task-cli list
 
 ---
 
-## 🔧 Variables d'environnement
-
-Tu peux utiliser la variable `TASKS_FILE_PATH` pour spécifier un autre fichier JSON :
-```bash
-export TASKS_FILE_PATH=my_tasks.json
-```
-
----
 
 
