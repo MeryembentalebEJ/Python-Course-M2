@@ -15,6 +15,9 @@ A command-line task manager written in Python using `argparse`. This project inc
 ✅ Packaged for local installation with `pip install -e .`
 
 ---
+---
+![Résultat CLI](./images/exo2.PNG)
+---
 
 ## 🛠 Folder Structure
 
