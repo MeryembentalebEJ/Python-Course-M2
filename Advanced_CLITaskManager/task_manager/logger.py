@@ -1,0 +1,17 @@
+import logging
+import os
+
+def setup_logger(log_file="task_manager.log"):
+    log_directory = "logs"
+    os.makedirs(log_directory, exist_ok=True)
+    log_path = os.path.join(log_directory, log_file)
+
+    logger = logging.getLogger("task_manager")
+    if not logger.handlers:
+        logger.setLevel(logging.INFO)
+        handler = logging.FileHandler(log_path)
+        formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+        handler.setFormatter(formatter)
+        logger.addHandler(handler)
+
+    return logger

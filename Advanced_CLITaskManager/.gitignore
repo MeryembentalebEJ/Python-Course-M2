@@ -1,0 +1,35 @@
+# 👉 Environnement virtuel
+venv/
+.mypy_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# 👉 Fichiers de logs
+logs/
+*.log
+
+# 👉 Fichiers système et temporaires
+.DS_Store
+*.swp
+*.swo
+*.bak
+
+# 👉 Fichier des tâches (base de données locale)
+tasks.json
+
+# 👉 Dépendances générées
+dist/
+build/
+*.egg
+
+# 👉 Docker
+*.tar
+*.img
+docker-compose.override.yml
+
+# 👉 Tests
+.coverage
+.cache/
+.pytest_cache/
